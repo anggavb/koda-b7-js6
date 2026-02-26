@@ -6,5 +6,5 @@ const data = {
   }
 }
 
-const {id, meta: {author, tags}} = data
-console.log(id, author, tags);
+const {id, meta: {author, tags: [satu]}} = data
+console.log(id, author, satu);
